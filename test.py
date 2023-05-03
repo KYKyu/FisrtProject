@@ -5,3 +5,8 @@ def hello10():
         print("hello", end=" ")
 
 hello10()
+print("")
+for i in range(1, 11):
+    print("*", end="")
+    if i % 5 == 0:
+        print("")
