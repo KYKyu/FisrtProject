@@ -1,1 +1,7 @@
-print("이렇게 하면 어떻게 될까")
+print("hello")
+
+def hello10():
+    for _ in range(10):
+        print("hello", end=" ")
+
+hello10()
